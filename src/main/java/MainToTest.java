@@ -11,7 +11,7 @@ public class MainToTest {
     public static void main(String[] args) throws MalformedURLException, InterruptedException {
         DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
         desiredCapabilities.setCapability("deviceName", "emulator-5554");
-        desiredCapabilities.setCapability("platformName","iOS");
+        desiredCapabilities.setCapability("platformName","Android");
 
 
 //if you want to run mobile native app then use the below way of giving apk file or ipa file to run the mobile app
